@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Vintage Car Hire</title>
+</head>
+<body>
+
+    <!-- Navbar ends here -->
+
+    <section>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                  <img src="./images/logo.jpg" alt="" width="30" height="24">
+                </a>
+            </div>
+            <div class="container-fluid" id="home">
+              <!-- <a class="navbar-brand" href="#"></a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#cars">Cars</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#enquiries">Enquiries</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </ul>
+              </div>
+            </div>
+
+
+        </nav>
+
+
+    </section>
+
+    <!-- Navbar ends here -->
+
+    <h1 class="container text-center">Vintage Cars for hire</h1>
+
+
+
+    <!-- Car Listings (Cards with images) starts here -->
+
+   
+    <section class="container" id="cars">
+        <h4>Car Listings</h4>
+        <div class="row">
+          <div class="col">
+                <div class="card" style="width: 18rem;">
+                <img src="./images/vintage-teal-sedan.jpeg" class="card-img-top" alt="vintage teal sedan">
+                <div class="card-body">
+                <p class="card-text">Vintage Teal Sedan</p>
+                <small>Car Type: Sedan</small><br>
+                <small>Doors: 5</small>
+                </div>
+            </div>
+
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="./images/vintage-yellow-car.jpeg" class="card-img-top" alt="vintage yellow car">
+            <div class="card-body">
+                <p class="card-text">Vintage Yellow Car</p>
+                <small>Car Type: Sedan</small><br>
+                <small>Doors: 2</small>
+            </div>
+          </div>
+
+          </div>
+
+          <div class="col">
+                <div class="card" style="width: 18rem;">
+                <img src="./images/vintage-red-coupe.jpeg" class="card-img-top" alt="vintage red coupe">
+                <div class="card-body">
+                    <p class="card-text">Vintage Red Coupe</p>
+                    <small>Car Type: Sedan</small><br>
+                    <small>Doors: 2</small>
+                </div>
+              </div>
+
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/vintage-green-chev.jpeg" class="card-img-top" alt="vintage green chev">
+                <div class="card-body">
+                    <p class="card-text">Vintage Green Chev</p>
+                    <small>Car Type: Sedan</small><br>
+                    <small>Doors: 5</small>
+                </div>
+              </div>
+
+          </div>
+
+        </div>
+    </section>
+
+    <!-- Car Listings (Cards with images) ends here -->
+
+
+    
+    <!-- Enquiries (form) starts here -->
+
+    <section class="cointainer" id="enquiries">
+
+        <form>
+            <h4>Enquire about a car</h4>
+            <div class="mb-3">
+                <label for="fullname" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullname">
+            </div>
+            <div class="mb-3">
+              <label for="email1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+            </div>               
+            <div class="mb-3">
+                   <label for="choosecar" class="form-label"></label>
+                    <select name="choosecar" id="choosecar" class="form-control">
+                      <option value="tealsedan">Teal Sedan</option>
+                      <option value="yellowcar">Yellow Car</option>
+                      <option value="redcoupe">Red Coupe</option>
+                      <option value="greenchev">Green Chev</option>
+                    </select>
+            </div>
+            <div class="form-dropdown"> 
+                <label for="comment">Comments:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+                        
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </section>
+
+    
+
+<input type="email" class="form-control" id="email1" aria-describedby="emailHelp">
+    <!-- Enquiries (form) ends here -->
+
+
+    <!-- Contact starts here -->
+
+    <section class="cointainer" id="contact">
+    <h4>Contact</h4>
+        <p>Address: 27 Carlisle Street, Earlston, Vic 3669</p>
+        <p>Phone: XXXX0000</p>
+        <p>Email: xxxx@xxxx.com</p>
+
+    </section>
+
+    <!-- Contact ends here -->  
+
+
+
+    <!-- Footer starts here -->
+
+    <footer class="container text-center">
+        Copyright cLL. All rights reserved 2021
+    </footer>
+
+
+    <!-- Footer ends here -->   
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.container-fluid {
+    float: right;
+}
+
+form {
+    background-color: rgb(173, 231, 231);
+    padding: 50px;
+}
+
+form h3 {
+    color: darkcyan;
+    font-family: 'serif';
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+h1 {
+    color: darkcyan;
+    font-family: 'serif';
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+h4 {
+    color: darkcyan;
+    font-family: 'serif';
+    font-style: oblique;
+    font-weight: bolder;
+
+}
+
